@@ -48,6 +48,7 @@ h4 {
 
 .card {
     background-color: hsl(0, 10%, 98%);
+    border: 1px solid hsl(0, 0%, 7%);
     border-radius: 12px;
     border-color: hsl(0, 0%, 7%);
     padding: 16px;
