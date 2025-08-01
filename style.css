@@ -10,13 +10,17 @@ h1 {
     font-family: 'Figtree', sans-serif;
     font-weight: 800;
     font-size: 20px;
+    transition: 0.4s;
+    margin: 0;
+    margin-bottom: 16px;
 }
 
 h2 {
     font-family: 'Figtree', sans-serif;
     font-weight: 800;
-    color: hsl(0, 0%, 7%);
+    color: hsl(0, 19%, 21%);
     font-size: 12px;
+    margin: 0;
     }
 
 h3 {
@@ -24,6 +28,8 @@ h3 {
     font-weight: 500;
     color: hsl(0, 0%, 7%);
     font-size: 12px;
+    margin: 0;
+    margin-bottom: 16px;
     }
 
 h4 {
@@ -31,7 +37,10 @@ h4 {
     font-weight: 500;
     color: hsl(216, 15%, 48%);
     font-size: 16px;
+    margin: 0;
+    margin-bottom: 20px;
     }
+
 
 .chip {
   display: inline-block;
@@ -41,6 +50,7 @@ h4 {
   font-weight:800;
   border-radius: 4px;
   background-color: hsl(47, 88%, 63%);
+  margin-bottom:12px;
 }
 
 .attribution { 
@@ -63,14 +73,14 @@ h4 {
     border-color: hsl(0, 0%, 7%);
     padding: 20px;
     margin: 24px;
-    box-shadow: 6px 6px 0px 0 hsl(0, 0%, 7%);
+    box-shadow: 8px 8px 0px 0 hsl(0, 0%, 7%);
     transition: 0.3s;
     max-width: 300px;
     }
 
-.card:hover {
-    background-color: hsl(0, 0%, 100%);
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+h1:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
 }
 
 .card__image {
@@ -78,12 +88,14 @@ h4 {
     width: 100%;
     height: auto;
     object-fit: cover;
+    margin-bottom: 16px;
 }
 
 .author {
   display: flex;
   align-items: center;
   gap: 8px;
+  margin-top: auto;
 }
 
 .avatar {
